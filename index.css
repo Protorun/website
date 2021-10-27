@@ -7,7 +7,6 @@ body {
 }
 
 ul {
-	width: 100%;
 	position: fixed;
 	background-color: #AAA;
 	list-style-type: none;
