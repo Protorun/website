@@ -1,14 +1,34 @@
 body {
-	background-color: #CCCCCC;
+	background-color: #CCC;
 }
 
-navigation {
-	background-color: #AAAAAA;
-	a:link {
-		color: red;
-	}
-	a:hover {
-		color: purple;
-	}
+.active {
+	background-color: #555;
 }
 
+ul {
+	width: 100%;
+	position: fixed;
+	background-color: #AAA;
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #CCC;
+}
+
+li a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #FFF;
+	padding: 10px 10px;
+}
+
+li a:hover {
+	background-color: #333;
+}
